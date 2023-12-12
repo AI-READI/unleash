@@ -52,6 +52,7 @@ services:
     environment:
       # create a database called `db`
       POSTGRES_DB: "db"
+      POSTGRES_PASSWORD: "unleash"
     healthcheck:
       test:
         [
